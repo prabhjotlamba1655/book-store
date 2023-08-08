@@ -1,0 +1,34 @@
+.item {
+  text-align: center; /* Center the image horizontally */
+  margin-bottom: 20px; /* Add some spacing between the image and text */
+}
+
+.details {
+  padding: 20px; /* Add padding around the text to separate it from the image */
+}
+
+.product-rating {
+  align-items: center;
+}
+
+.product-name {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.product-price {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.product-author {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.product-review {
+  font-size: 17px;
+  font-weight: bold;
+}

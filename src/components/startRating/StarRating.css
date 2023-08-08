@@ -1,0 +1,14 @@
+/* Star styles */
+
+.star-rating {
+    font-size: 1.5rem;
+  }
+  
+  .star-filled {
+    color: gold;
+  }
+  
+  .star-empty {
+    color: lightgray;
+  }
+  
