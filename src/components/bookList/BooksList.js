@@ -12,7 +12,7 @@ const BooksList = () => {
   const itemsPerPage = 10; // Number of books to display per page
 
   const fetchBooks = (page) => {
-    fetch(`http://ec2-13-51-161-226.eu-north-1.compute.amazonaws.com:5000/api/books?page=${page}&limit=${itemsPerPage}`)
+    fetch(`/aps/api/books?page=${page}&limit=${itemsPerPage}`)
       .then((response) => response.json())
       .then((data) => {
         setBooks(data.data);
