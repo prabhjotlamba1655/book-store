@@ -12,7 +12,7 @@ const BooksList = () => {
   const itemsPerPage = 10; // Number of books to display per page
 
   const fetchBooks = (page) => {
-    fetch(`api/books?page=${page}&limit=${itemsPerPage}`)
+    fetch(`/api/api/books?page=${page}&limit=${itemsPerPage}`)
       .then((response) => response.json())
       .then((data) => {
         setBooks(data.data);
