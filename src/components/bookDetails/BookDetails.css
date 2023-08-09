@@ -1,10 +1,10 @@
 .item {
-  text-align: center; /* Center the image horizontally */
-  margin-bottom: 20px; /* Add some spacing between the image and text */
+  text-align: center; 
+  margin-bottom: 20px; 
 }
 
 .details {
-  padding: 20px; /* Add padding around the text to separate it from the image */
+  padding: 20px; 
 }
 
 .product-rating {
