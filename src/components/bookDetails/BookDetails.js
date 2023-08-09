@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import "./BookDetails.css"; // Import the responsive styles for BookDetails
+import "./BookDetails.css";
 import { Col, Container, Row, Modal, Button } from "react-bootstrap";
 import Header from "../header/Header";
 import StarRating from "../startRating/StarRating";
@@ -35,7 +35,6 @@ const BookDetails = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        // Assuming data.review contains the newly added review
         setBook((prevBook) => ({
           ...prevBook,
           reviews: [...prevBook.reviews, data.review],
